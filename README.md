@@ -23,3 +23,13 @@ Database & Auth: Supabase
 Styling: Tailwind CSS + Lucide Icons
 
 Language: TypeScript
+
+**🔒 Security (RLS)**
+
+This project uses Row Level Security. Each user is uniquely identified by their user_id, and policies are in place to ensure that:
+
+Users can only view their own tasks.
+
+Users can only edit or delete tasks they created.
+
+Subtasks are automatically protected based on the ownership of the parent task.
