@@ -1,4 +1,5 @@
 **🚀 Task Management System**
+
 A modern, full-stack task management application built with Next.js, Supabase, and Tailwind CSS. This project features a robust database schema, subtask management, and secure Row Level Security (RLS) policies.
 
 **✨ Features**
